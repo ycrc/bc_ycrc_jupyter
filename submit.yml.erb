@@ -28,13 +28,13 @@ batch_connect:
 # Example for Slurm
 #
 # @example Specify nodes with specific features for all jobs
-#script:
-#  native: [ "-N", "<%= bc_num_slots.blank? ? 1 : bc_num_slots.to_i %>", "-C", "c12" ]
+script:
+    native: [ "--cpus-per-task", "<%= bc_num_cores.to_i %>", "--mem-per-cpu", "<%= bc_amt_mem.to_i %>G" ]
 
 # Examples for PBS/Torque
 #
 # @example Specify the PPN for all jobs
-script:
-  native:
-    resources:
-      nodes: "<%= bc_num_slots.blank? ? 1 : bc_num_slots.to_i %>:ppn=28"
+# script:
+#   native:
+#    resources:
+#       nodes: "<%= bc_num_slots.blank? ? 1 : bc_num_slots.to_i %>:ppn=28"
