@@ -1,7 +1,7 @@
-# Batch Connect - Example Jupyter Notebook Server
+# Batch Connect - YCRC Jupyter Notebook Server
 
-![GitHub Release](https://img.shields.io/github/release/osc/bc_example_jupyter.svg)
-![GitHub License](https://img.shields.io/github/license/osc/bc_example_jupyter.svg)
+![GitHub Release](https://img.shields.io/github/release/ycrc/bc_ycrc_jupyter.svg)
+![GitHub License](https://img.shields.io/github/license/ycrc/bc_ycrc_jupyter.svg)
 
 An example Batch Connect app that launches a Jupyter Notebook server within a
 batch job.
@@ -34,7 +34,7 @@ this.
 
 ```sh
 # Download the zip from the GitHub page
-wget https://github.com/OSC/bc_example_jupyter/archive/master.tar.gz
+wget https://github.com/ycrc/bc_ycrc_jupyter/archive/master.tar.gz
 
 # Create a catchy directory
 mkdir my_jupyter_app
@@ -68,7 +68,7 @@ git commit -m "my first commit"
 
 ## Contributing
 
-1. Fork it ( https://github.com/OSC/bc_example_jupyter/fork )
+1. Fork it ( https://github.com/ycrc/bc_ycrc_jupyter )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
